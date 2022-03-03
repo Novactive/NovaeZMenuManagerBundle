@@ -201,8 +201,8 @@ class ContentMenuItemType extends DefaultMenuItemType
         $cacheItem->set($menuItemLinkInfos);
         $cacheItem->tag(
             [
-                'content-'.$content->id,
-                'location-'.$location->id,
+                'c-'.$content->id,
+                'l-'.$location->id,
                 'menu-item-'.$menuItem->getId(),
                 'menu-'.$menuItem->getMenu()->getId(),
             ]
